@@ -74,6 +74,7 @@
             app.UseAuthentication();
 
             app.UseRouting();
+            app.UseAuthorization();
             app.UseStaticFiles();
             app.UseCors(_defaultCorsPolicyName);
             app.UseSwagger();
